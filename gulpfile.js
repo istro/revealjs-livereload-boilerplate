@@ -12,12 +12,12 @@ var config = {
 
 // local dev server task
 gulp.task('server', function() {
-	connect.server({
-		root: ['./'],
+  connect.server({
+    root: ['./'],
     port: config.port,
     base: config.devBaseUrl,
     livereload: true
-	})
+  })
 })
 
 // livereload tasks
